@@ -56,10 +56,10 @@ def pregunta_02():
     """
 
     # Importe train_test_split
-    from ____ import ____
+    from sklearn.model_selection import train_test_split
 
     # Cargue los datos generados en la pregunta 01.
-    from sklearn.model_selection import train_test_split
+    x_tagged, y_tagged, _, _ = pregunta_01()
 
     # Divida los datos de entrenamiento y prueba. La semilla del generador de números
     # aleatorios es 12345. Use el 10% de patrones para la muestra de prueba.
